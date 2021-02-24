@@ -1,3 +1,6 @@
+[Hand Book]
+https://community.arcblockio.cn/t/topic/268
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e0c63e91-97b5-45df-95d1-1bad86153559/deploy-status)](https://app.netlify.com/sites/forge-next-starter/deploys)
 
 > Brings tons of thousands react libraries/components to dApps that run on [forge](https://www.arcblock.io/en/forge-sdk) powered blockchain.
