@@ -1,0 +1,6 @@
+src/static/images/payment/
+ssl/
+*.log
+node_modules/
+src/.next/
+src/static/text/
