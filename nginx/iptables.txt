@@ -1,0 +1,13 @@
+﻿1. 查看所有规则
+sudo iptables -nL --line-number
+
+2. 查看nat规则
+sudo iptables -t nat -L -n --line-numbers
+sudo netstat -lntp
+
+3. 删除iptables
+比如删除序号1
+sudo iptables -t nat -D PREROUTING 1
+
+4. 添加端口转发
+sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 3030
